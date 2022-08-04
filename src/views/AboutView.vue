@@ -7,13 +7,15 @@
        </div>
 
        <Demo></Demo>
+       <Max></Max>
   </div>
 </template>
 <script>
 import Demo from '@/components/demo.vue'
+import Max from '@/components/max.vue'
 export default {
   components:{
-    Demo
+    Demo,Max
   }
 }
 </script>
